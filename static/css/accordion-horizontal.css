@@ -1,0 +1,107 @@
+/*--- kwicks ---*/
+.kwicks-box {
+	width:940px;
+	margin-bottom:49px;
+	margin-left:10px;/*width of pullout menu*/
+}
+
+.kwicks {
+	/* recommended styles for kwicks ul container */
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	width:940px;
+	height:265px;
+}
+.kwicks li{
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 188px;
+	height: 265px;
+	/*do not change these */
+	display: block;
+	overflow: hidden;
+	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+	background:#ccfff0; /*background color for pullout tabs*/
+}
+/*content in pullout tabs*/
+.kwicks div {
+	position:absolute;
+	left:72px;
+	top:40px;
+	width:640px;
+	height:200px;
+	line-height:1.5em;
+	color:#3e2077;
+	font-size:18px;
+}
+.kwicks li.active {
+}
+/*headers in pullout tabs*/
+.kwicks h6{color:#f27ca7; line-height:18px; font-size:2em; padding-top:25px; margin-bottom:18px}
+.kwicks p{line-height:18px}
+
+.kwicks.horizontal li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-right: 0; /*Set to same as spacing option. */	
+	float: left;
+}
+
+.kwicks .kwick_button {
+	display:block;
+	width:50px;
+	height:265px;
+	background:none;
+	outline:none;
+	text-indent:-9999px;
+	cursor:pointer;
+	background-image:url(../website/l.png);
+	background-repeat:no-repeat;
+}
+
+#kwick_1 .kwick_button {
+	background-position:left top;
+}
+#kwick_1 .kwick_button .kwick_button{
+	background-position:left bottom;
+}
+	#kwick_1.active .kwick_button {
+		background-position:left top;
+	}
+#kwick_2 .kwick_button {
+	background-position:-51px top;
+}
+#kwick_2 .kwick_button .kwick_button {
+	background-position:-51px bottom;
+}
+	#kwick_2.active .kwick_button {
+		background-position:-51px top;
+	}
+#kwick_3 .kwick_button {
+	background-position:-102px top;
+}
+#kwick_3 .kwick_button .kwick_button {
+	background-position:-102px bottom;
+}
+	#kwick_3.active .kwick_button {
+		background-position:-102px top;
+	}
+#kwick_4 .kwick_button {
+	background-position:-153px top;
+}
+#kwick_4 .kwick_button .kwick_button {
+	background-position:-153px bottom;
+}
+	#kwick_4.active .kwick_button {
+		background-position:-153px top;
+	}
+#kwick_5 .kwick_button {
+	background-position:-204px top;
+}
+#kwick_5 .kwick_button .kwick_button {
+	background-position:-204px bottom;
+}
+	#kwick_5.active .kwick_button {
+		background-position:-204px top;
+	}
