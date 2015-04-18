@@ -1,20 +1,21 @@
 .body
 	{
-	font-family:Bebas;
-	background-color:#D8BFD8;
-	
+	font-family:"Bebas";
+	background-color:#8677A1;
 	}
 .h1
 	{
+	 border-radius: 5px;
 	text-align:center;
-	color: #483D8B ;
-	font-family:Sofia;
+	color:#E4DFED;
+	font-family:"Sofia";
 	font-size:35;
-	background-color: #E0FFFF ;
+	background-color: #4B5266 ;
 	text-align:center;
-	border-style:double;
+	padding-bottom:10px;
 	width:500;
 	margin-left:auto;
+	margin-top:20px;
 	margin-right:auto;
 	
 	}
@@ -28,50 +29,52 @@
 	}
 .holidays
 	{
-	color:  #6A5ACD;
-	border-style:double;
-	background-color:#F0FFFF;
-	text-align:;
+	color:  #E4DFED;
+	border-radius: 5px;
+	background-color:#3E394C;
 	margin-left:auto;
 	margin-right:auto;
+	padding-bottom:20px;
 	width:500;
 	list-style-position:outside;
 	}
 .food
 	{
-	color:#4682B4;
-	border-style:double;
-	background-color:#F0FFFF;
-	text-align:;
+	color:  #E4DFED;
+	border-radius: 5px;
+	background-color:#3E394C;
 	margin-left:auto;
 	margin-right:auto;
+	padding-bottom:20px;
+	padding-top:10px;
 	width:500;
 	list-style-position:outside;
 	}
 
 .poem
 	{
-	color:#4B0082;
-	border-style:double;
-	background-color:#F0FFFF;
-	text-align:center;
+	color:  #E4DFED;
+	border-radius: 5px;
+	background-color:#3E394C;
 	margin-left:auto;
 	margin-right:auto;
+	padding-bottom:20px;
+	padding-top:10px;
 	width:500;
+	list-style-position:outside;
+	text-align:center;
 	}
 a:link   
-	{
-	color: #FF1493;
+	color:  #F5C2B8;
 	}
 a:visited
-	{
-	color: #FF8C00;
+	color:  #F5C2B8;
 	}
 a:active
 	{
-	color:#32CD32;
+	color:  #F5C2B8;
 	}
 a:hover
 	{
-	cursor:wait
+	opacity:0.5;
 	}
