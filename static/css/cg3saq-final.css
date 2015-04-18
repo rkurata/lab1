@@ -1,0 +1,216 @@
+body {
+	/*background:url()*/
+	left top no-repeat;
+	background-color: #ccfff0;
+	min-width: 1000px;
+	height: 100%;
+	font-family: "Lobster 1.3"
+	}
+
+header {
+	position: relative;
+	height: 372px;
+	margin-bottom:10px;
+	z-index:15;
+	}
+	
+nav{
+	width:971px;
+	height:113px;
+	background:url(../website/navbar.png)
+	left top no-repeat;
+	position:absolute;
+	bottom:0;
+	left:0; /*white navbar*/
+	}
+	
+#logo {
+	position:relative;
+	top:27px;
+	left:110; /*title*/
+	width:759px;
+	height:213px;
+	}
+
+#logo a{
+	display:block;
+	height:100%;
+	background:url(../website/title2.png)
+	left top no-repeat;
+	}
+	
+nav li{
+	position:relative;
+	display:block;
+	}
+/*problem*/	
+nav > ul > li{
+	float:left;
+	height:78px;
+	display:inline-block;
+	z-index:20;
+	top:17px; /*purple navbar margin*/
+	left:15px; /*L margin of white navbar*/
+	}
+	
+nav > ul > li > a{	
+	display:block;
+	line-height:78px;
+	text-decoration:none;
+	text-align:center;
+	color:#3e2077;
+	font-size:24pt;
+	font-family:"Lobster 1.3";
+	border-left:7px solid #f9f5d5; /*width of divisions between tabs*/
+	background:url(../website/navbackground.png);
+	right top repeat-y
+	}
+	
+nav > ul > li > a:hover{text-decoration:none}
+nav > ul > li >:hover{background:url(../website/hoverbackground.png) -9px top repeat-x}
+
+#main {
+	width:1000px;
+	margin:0 auto;
+	font-size:0.75em;
+}
+/*width of purple navbar*/
+nav > ul > li.m1{width:110px}
+nav > ul > li.m2{width:150px}
+nav > ul > li.m3{width:110px}
+nav > ul > li.m4{width:155px}
+nav > ul > li.m5{width:145px}
+nav > ul > li.m6{width:145px}
+nav > ul > li.m7{width:125px}
+
+nav > ul > li.m1:hover{background-position:left top}
+nav > ul > li.m7:hover{background-position:right top}
+
+nav > ul > li.m1 > a{border:none} /*removes left border on first nav tab*/
+
+nav > ul > li > a.active
+	{
+	background:url(../website/active.png) -9px
+	top no-repeat;
+	color:#f9f5d5;
+	}
+
+nav > ul > li.m1 > a.active{background-position:left top}
+nav > ul > li.m7 > a.active{background-position:right top}
+
+nav > ul ul{
+	position:absolute;
+	z-index:100;
+	left:5;
+	top:0;
+	padding:0 1px;
+	width:143px; /*width of pulldown menu*/
+	display:none;
+	}
+	
+/*pulldown menu*/
+	
+nav > ul ul a{
+	color:#fc59b3; /*text color for dropdown menu*/
+	font-size: 18px;
+	text-decoration:none;
+	display:block;
+	padding:6px 5px 7px 15px;
+	background:none;
+	}
+	
+nav > ul ul a:hover{background-position
+	text-decoration:none;
+	background-color:#f9f5d5; /*hover color for first drop down*/
+	}
+
+nav > ul ul ul a:hover{background-color:#f2cce1} /*hover color for second drop down*/
+
+nav > ul ul li{margin-bottom:1px; width:100%}
+nav > ul > li > ul{margin-top:78px; padding-top:1px}
+
+nav > ul > li.m6 > ul, nav > ul > li.m7 > ul{left:auto;right:0}
+nav > ul > li > ul > li a{background:#f2cce1} /*background color for first dropdown*/
+nav > ul > li > ul > li > ul{margin-left:140px}
+
+nav > ul > li.m6 > ul > li > ul, nav > ul > li.m7 > ul > li > ul{	
+	margin-left:0; margin-right:140px; left:auto; right:0f1c07}
+	
+	nav > ul > li > ul > li > ul > li a{background:#f9f5d5} /*background color for second dropdown*/
+
+/*content*/
+#content {
+	background:url(../website/content.png);
+	height:816px;
+	width:967px;
+	position:relative;
+	z-index:10;
+	}
+
+article.container_12{padding:40px 0 20px}
+/*columns*/
+.list1{overflow:hidden}
+	.list1 li{float:left; width:290px; /*width of column*/ margin-right:10px; margin-left:15px; font-size:18px; color:#3e2077;}
+	.list1 .last{margin-right:0}
+/*image on accordion*/	
+.fleft {
+	float: left;
+	}
+	
+.pic_indent {margin: 0 20px 0 0}
+/*footer*/	
+footer {
+	min-height:110px;
+	overflow:hidden;
+	background:#c8b8f0;
+	font-size:12pt; /*font size for footer*/	
+	color:#533889;
+	}
+	
+/*background*/
+.top_bg{min-width:1000px; background:url(../website/background.png) center top no-repeat #ccfff0}
+/*end background*/
+footer .wrapper{
+	width:1000px;
+	margin:0 auto;
+	padding:37px 0 10px
+	}
+	
+footer a{
+	color:#533889;
+	text-decoration:none
+	}
+footer a:hover{
+	text-decoration:underline
+	}
+	
+	.footer_menu{
+		float:right;
+		overflow:hidden;
+		margin-right:56px
+		}
+	.footer_menu ul{	
+		overflow:hidden;
+		margin-left:-1px
+		}
+	.footer_menu li{
+		float:left;
+		padding-left:11px;
+		margin-right:10px
+		}
+	.footer_menu .active{color:#fff}
+	
+.copy{
+	float:left;
+	padding-left:30px
+	}
+	
+.copy span{
+	color:#fff;
+	margin-right:3px
+	}
+	
+.copy b{
+	margin:0 3px 0 2px
+	}
+	

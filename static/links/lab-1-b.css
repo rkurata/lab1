@@ -1,0 +1,28 @@
+.body
+	{
+	font-family:Bebas;
+	background-color:#D8BFD8;
+	
+	}
+.h1
+	{
+	font-family:Sofia;
+	color: #483D8B ;
+	font-size:35;
+	background-color: #E0FFFF ;
+	text-align:center;
+	border-style:double;
+	width:500;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.terms
+	{
+	color:  #6A5ACD;
+	border-style:double;
+	background-color:#F0FFFF;
+	
+	margin-left:auto;
+	margin-right:auto;
+	width:1000;
+	}

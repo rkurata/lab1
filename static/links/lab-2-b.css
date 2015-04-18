@@ -1,0 +1,68 @@
+table,th,td
+{
+border:1px solid black;
+border-collapse:collapse;
+}
+.caption
+	{
+	font-family:Sofia;
+	}
+.a 
+	{	
+	color:#2F4F4F;
+	text-align:center;
+	background-color:#E0FFFF;
+	border-style:double;
+	border-width:5px;
+	border-color: #2E8B57;
+	font-family:Sofia;
+	}
+.b
+	{
+	color:#2F4F4F;
+	font-size:20;
+	font-weight:900;
+	background-color:#E0FFFF;
+	font-family:Sofia;
+	}
+.c
+	{
+	text-align:center;
+	color:#2F4F4F;
+	}
+.d
+	{
+	background-color: #FFC0CB;
+	color:#2F4F4F;
+	}
+.e
+	{
+	background-color: #FAEBD7 ;
+	color:#2F4F4F;
+	}
+.f
+	{
+	background-color:#F5DEB3;
+	color:#2F4F4F;
+	}
+.body
+	{
+	font-family:Bebas;
+	color:#2F4F4F;
+	}
+a:link   
+	{
+	color: #FF1493;
+	}
+a:visited
+	{
+	color: #FF8C00;
+	}
+a:active
+	{
+	color:#32CD32;
+	}
+a:hover
+	{
+	cursor:wait
+	}

@@ -1,0 +1,50 @@
+.body
+	{
+	font-family:Bebas;
+	background-color:#D8BFD8;
+	color:#6A5ACD;
+	
+	}
+.h1
+	{
+	font-family:Sofia;
+	color: #483D8B ;
+	font-size:35;
+	background-color: #E0FFFF ;
+	text-align:center;
+	border-style:double;
+	width:500;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.h2
+	{
+	text-align:center;
+	}
+.ingredients
+{
+	color:  #6A5ACD;
+	border-style:double;
+	background-color:#F0FFFF;
+	margin-left:auto;
+	margin-right:auto;
+	width:400;
+	}
+.steps
+{
+	color:  #6A5ACD;
+	border-style:double;
+	background-color:#F0FFFF;
+	margin-left:auto;
+	margin-right:auto;
+	width:800;
+	
+	}
+.pics
+	{
+	text-align:center;
+	}
+.source
+	{
+	text-align:center;
+	}

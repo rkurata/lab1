@@ -1,23 +1,205 @@
-<!doctype html>
-
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>HCI Project Portfolio</title>
+	<link href="css/reset.css" rel="stylesheet" />
+	<link href="css/grid.css" rel="stylesheet" />
+	<link href="css/accordion-horizontal.css" rel="stylesheet" />
+	
+	<link href="css/cg3saq-final.css" rel="stylesheet" />
+	<!--don't forget to change css sheet-->
+	
+	<script src="js/jquery-1.4.4.min.js"></script>
+	<script src="js/kwicks-1.5.1.pack.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/scripts.js"></script>
+	
+	<script>
+		$(document).ready(function () {
+		//kwicks begin
+			$('.kwicks').kwicks({
+				max: 736,
+				spacing : 1,
+				sticky : true,
+				defaultKwick:0,
+				event : 'click'
+				});
+				
+			$('.kwicks .kwick_button .kwick_button').hover(
+				function(){$(this).stop().animate({ opacity:0}, 500)},
+				function(){$(this).stop().animate({ opacity:1}, 500)}
+				);
+			});
+	</script>
+	
+	<title>Rachel Kurata cg3saq</title>
 </head>
-
 <body>
-	<h1>Rachel Kurata</h1>
-	<h4>Project Portfolio</h4>
-
-	<p>Rachel Kurata is a third year UC San Diego student, pursuing a
-	major in Cognitive Science, as well as a minor in Business.</p>
-
-	<h4>Projects</h4>
-	<ol>
-		<li>...</li>
-	</ol>
-
+<div class="top_bg">
+<div id="main">
+<header>
+<h1 id="logo"><a href="cg3saq-final.html"></a></h1>
+	<nav>
+	<ul class="sf-menu">
+		<li class="m1"><a class="active" href="cg3saq-final.html">Home</a></li>
+		<li class="m2"><a href='#'>Photoshop</a>
+			<ul>
+				<li><a href="website/tomatoes-cg3saq.jpg">Tomatoes</a></li>
+				<li><a href="website/flower-power-cg3saq.jpg">Flowers</a>
+				<ul>
+					<li><a href="http://en.wikipedia.org/wiki/Bitmap">Bitmap</a></li>
+					<li><a href="http://en.wikipedia.org/wiki/Vector_graphics">Vectors</a></li>
+					<li><a href="website/mask-cg3saq.jpg">Mask</a></li>
+				</ul>
+				</li>
+				<li><a href="website/photo-pop-cg3saq.jpg">Pop Art</a></li>
+			</ul>
+		</li>
+		<li class="m3"><a href="links/cg3saq-kurata-lab1-b.html">Terms</a></li>
+		<li class="m4"><a href="cg3saq-slideshow.html">Slideshow</a></li>
+		<li class="m5"><a href="http://960.gs/">960 Grid</a></li>
+		<li class="m6"><a href="links/cg3saq-kurata-lab1-a.html">About Me</a></li>
+		<li class="m7"><a href="http://icogsci1.ucsd.edu/~cg3s/">Cogs 3</a></li>
+	</ul>
+	</nav>
+</header>
+<!--content-->
+	<section id="content">
+		<article class="container_12">
+			<div class="kwicks-box">
+				<ul class="kwicks horizontal">
+					<li id="kwick_1">
+						<span class="kwick_button">
+							<span class="kwick_button">My Favorite Image</span>
+						</span>
+						<!--slide 40--><div> <img class="fleft pic_indent" src="website/image.png" height="210px">
+							<h6><strong>My Favorite Image</strong></h6>
+								<p>This is a picture of me and my best friend, Victoria. I met her at LBJC, which was my 
+								high school rowing club and we have been best friends ever since. This was taken last 
+								summer when we went moonlight kayaking together in Newport. 
+								</p>
+						<!--finish--></div>
+					</li>
+					
+					<li id="kwick_2">
+						<span class="kwick_button">
+							<span class="kwick_button">My Class Schedule</span>
+						</span>
+							<div> <img class="fleft pic_indent" src="website/schedule.png" height="210px">
+							<h6><strong>My Class Schedule</strong></h6>
+								<p>For the spring quarter of my second year, I am taking four classes. 
+									I am taking Cogs 3, HILD 2C, Econ 110B, and Econ 110A. <a href="links/cg3saq-kurata-lab2-a.html">Here</a>
+									is where you can find the class schedule that I made for one of this
+									class's HTML assignments.
+								</p>
+							</div>
+					</li>
+					
+					<li id="kwick_3">
+						<span class="kwick_button">
+							<span class="kwick_button">How to Use Filezilla (FTP)</span>
+						</span>
+							<div> <img class="fleft pic_indent" src="website/fz.jpg" height="210px">
+								<h6><strong>How to Use Filezilla (FTP)</strong></h6>
+									<p>To use Filezilla, you have to know the class server, which is icogsci1.ucsd.edu. 
+									Your username is "cg3s" + your two letters that were assigned to you. The password
+									is the same as your school email password, and the port is 22. After that, you can
+									view all your files on your local site, like your laptop, and transfer them to the 
+									remote site, which is your account on the class server.
+									</p>
+							</div>
+					</li>
+					
+					<li id="kwick_4">
+						<span class="kwick_button">
+							<span class="kwick_button">My Favorite Recipe</span>
+						</span>
+							<div> <img class="fleft pic_indent" src="http://www.tasteandtellblog.com/wp-content/uploads/2011/07/Caramel-Banana-Bread-recipe-Taste-and-Tell-1.jpg" height="210px">
+								<h6><strong>My Favorite Recipe</strong></h6>
+									<p>My favorite thing to bake is banana bread with caramel sauce.
+									It is really easy to make and tastes delicious. I made a webpage for
+									the recipe, which can be found <a href="links/cg3saq-kurata-lab1-c.html">here</a>.
+									</p>
+							</div>
+					</li>
+					
+					<li id="kwick_5">
+						<span class="kwick_button">
+							<span class="kwick_button">Word & Excel</span>
+						</span>
+							<div> <img class="fleft pic_indent" src="website/wordexcel.png" height="210px">
+								<h6><strong>Word & Excel</strong></h6>
+									<p>I'm glad that I got to do the Word and Excel assignments for this class,
+									because I think learning those skills could be useful for the future. These assignments
+									made me aware of the tools that were available in these programs. I now have gained skills
+									that makes working in these programs much more efficient.
+									</p>
+							</div>
+					</li>
+					
+				</ul>
+			</div>
+			<ul class="list1">
+				<li>
+					<img src="website/heart.png"><br /><br />
+					<h6>Favorite Assignment</h6><br />
+						<p>My favorite assignment 
+						was the html table, because that was the first 
+						assignment that made me really enjoy the class. 
+						I had fun with the css sheet because I was able 
+						to focus on the appearance of the assignment, rather 
+						than just creating it, but creating it was fun too.
+						</p>
+				</li>
+				
+				<li>
+					<img src="website/broken.png"><br /><br />
+					<h6>Least Favorite Assignment</h6><br />
+						<p>My least favorite assignment was using 
+						LearnStreet to learn javascript. Learning
+						javascript was fun, but the website caused
+						lots of technical difficulties. Also, I thought 
+						some of the assignemnts were hard and I felt that
+						the program didn’t prepared me enough beforehand 
+						for some of  the assignemnts.
+						</p>
+				</li>
+				
+				<li>
+					<img src="website/computer.png"><br /><br />
+					<h6>Next Step in Computers</h6><br />
+						<p>I enjoyed this class so much that I plan 
+						on changing my major to cognitive science and 
+						specializing in human-computer interaction. I liked that the 
+						programming was challenging but rewarding at 
+						the same time, and I had a lot of fun designing everything.
+						</p>
+				</li>
+			</ul>
+		</article>
+	</section>
+</div>
+</div>
+<!--footer-->
+	<footer>
+		<div class="wrapper">
+			<div class="footer_menu">
+				<ul>
+					<li><a class = "active" href="cg3saq-final.html">Home</a></li>
+					<li><a href="website/tomatoes-cg3saq.jpg">Photoshop</a></li>
+					<li><a href="links/cg3saq-kurata-lab1-b.html">Terms</a></li>
+					<li><a href="cg3saq-slideshow.html">Slideshow</a></li>
+					<li><a href="http://960.gs/">960 Grid</a></li>
+					<li><a href="links/cg3saq-kurata-lab1-a.html">About Me</a></li>
+					<li><a href="http://icogsci1.ucsd.edu/~cg3s/">Cogs 3</a></li>
+				</ul>
+			</div>
+			
+			<div class="copy">
+				<span>Rachel Kurata</span> &copy; &nbsp;2014 <b>|</b> <a href="https://students.ucsd.edu/academics/academic-integrity/index.html">Academic Integrity</a>
+			</div>
+			
+		</div>
+	</footer>
 	
 </body>
 </html>

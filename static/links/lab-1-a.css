@@ -1,0 +1,77 @@
+.body
+	{
+	font-family:Bebas;
+	background-color:#D8BFD8;
+	
+	}
+.h1
+	{
+	text-align:center;
+	color: #483D8B ;
+	font-family:Sofia;
+	font-size:35;
+	background-color: #E0FFFF ;
+	text-align:center;
+	border-style:double;
+	width:500;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+.p
+	{
+	text-align:center;
+	}
+.h3 
+	{
+	text-align:center;
+	}
+.holidays
+	{
+	color:  #6A5ACD;
+	border-style:double;
+	background-color:#F0FFFF;
+	text-align:;
+	margin-left:auto;
+	margin-right:auto;
+	width:500;
+	list-style-position:outside;
+	}
+.food
+	{
+	color:#4682B4;
+	border-style:double;
+	background-color:#F0FFFF;
+	text-align:;
+	margin-left:auto;
+	margin-right:auto;
+	width:500;
+	list-style-position:outside;
+	}
+
+.poem
+	{
+	color:#4B0082;
+	border-style:double;
+	background-color:#F0FFFF;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:500;
+	}
+a:link   
+	{
+	color: #FF1493;
+	}
+a:visited
+	{
+	color: #FF8C00;
+	}
+a:active
+	{
+	color:#32CD32;
+	}
+a:hover
+	{
+	cursor:wait
+	}

@@ -1,0 +1,181 @@
+<html>
+<head>
+	<title>Slideshow</title>
+	<link rel="stylesheet" type="text/css" href="cg3saq-slideshow.css">
+	<script>
+	var imgArray = new Array ();
+	var textArray = new Array ();
+	var index = 0;
+	
+<!--"Start"-->
+	function cycle(){
+	
+	document.banner.src = imgArray[index].src;
+	document.getElementById('bannerCaption').innerHTML=textArray[index];
+	document.getElementById('currentSlide').innerHTML=Array[index];
+	document.getElementById('banner').height="375";
+	
+	index ++;
+	if (index > 5) {
+	index = 0;
+		}
+	
+		setTimeout("cycle()", 3000);
+		return;
+	}
+	function startup() {
+	imgArray[0] = new Image;
+	imgArray[1] = new Image;
+	imgArray[2] = new Image;
+	imgArray[3] = new Image;
+	imgArray[4] = new Image;
+	imgArray[5] = new Image;
+	
+	imgArray[0].src = "images/0.gif";
+	imgArray[1].src = "images/1.gif";
+	imgArray[2].src = "images/2.gif";
+	imgArray[3].src = "images/3.gif";
+	imgArray[4].src = "images/4.gif";
+	imgArray[5].src = "images/5.gif";
+	
+	
+	textArray[0] = "Sarah holding Luke as a newborn";
+	textArray[1] = "Sarah waking up to Luke by her side";
+	textArray[2] = "Luke joining Sarah and cousins at the park";
+	textArray[3] = "Luke playing baseball with Sarah in Grandma and Grandpa's backyard";
+	textArray[4] = "Sarah showing Luke how to play basketball";
+	textArray[5] = "Sarah and Luke with matching soccer uniforms";
+	
+	Array[0] = "Slide 1";
+	Array[1] = "Slide 2";
+	Array[2] = "Slide 3";
+	Array[3] = "Slide 4";
+	Array[4] = "Slide 5";
+	Array[5] = "Slide 6";
+	
+	
+	cycle();
+	return  index;
+	}
+	
+<!--"Next"-->
+	function cycle2 (){
+	
+	index ++;
+	if (index > 5) {
+	index = 0;
+		}
+	
+	document.banner.src = imgArray[index].src;
+	document.getElementById('bannerCaption').innerHTML=textArray[index];
+	document.getElementById('currentSlide').innerHTML=Array[index];
+	document.getElementById('banner').height="375";
+	
+	
+		return;
+	}
+	function startup2() {
+	imgArray[0] = new Image;
+	imgArray[1] = new Image;
+	imgArray[2] = new Image;
+	imgArray[3] = new Image;
+	imgArray[4] = new Image;
+	imgArray[5] = new Image;
+	
+	imgArray[0].src = "images/0.gif";
+	imgArray[1].src = "images/1.gif";
+	imgArray[2].src = "images/2.gif";
+	imgArray[3].src = "images/3.gif";
+	imgArray[4].src = "images/4.gif";
+	imgArray[5].src = "images/5.gif";
+	
+	textArray[0] = "Sarah holding Luke as a newborn";
+	textArray[1] = "Sarah waking up to Luke by her side";
+	textArray[2] = "Luke joining Sarah and cousins at the park";
+	textArray[3] = "Luke playing baseball with Sarah in Grandma and Grandpa's backyard";
+	textArray[4] = "Sarah showing Luke how to play basketball";
+	textArray[5] = "Sarah and Luke with matching soccer uniforms";
+	
+	Array[0] = "Slide 1";
+	Array[1] = "Slide 2";
+	Array[2] = "Slide 3";
+	Array[3] = "Slide 4";
+	Array[4] = "Slide 5";
+	Array[5] = "Slide 6";
+	
+	cycle2();
+	return;
+	}
+	
+<!--"Previous"-->
+	function cycle3 (){
+	
+	index --;
+	if (index < 0) {
+	index = 5;
+		}
+		
+	
+	document.banner.src = imgArray[index].src;
+	document.getElementById('bannerCaption').innerHTML=textArray[index];
+	document.getElementById('currentSlide').innerHTML=Array[index];
+	document.getElementById('banner').height="375";
+	
+	return;
+	
+	}
+	function startup3() {
+	imgArray[0] = new Image;
+	imgArray[1] = new Image;
+	imgArray[2] = new Image;
+	imgArray[3] = new Image;
+	imgArray[4] = new Image;
+	imgArray[5] = new Image;
+	
+	imgArray[0].src = "images/0.gif";
+	imgArray[1].src = "images/1.gif";
+	imgArray[2].src = "images/2.gif";
+	imgArray[3].src = "images/3.gif";
+	imgArray[4].src = "images/4.gif";
+	imgArray[5].src = "images/5.gif";
+	
+	textArray[0] = "Sarah holding Luke as a newborn";
+	textArray[1] = "Sarah waking up to Luke by her side";
+	textArray[2] = "Luke joining Sarah and cousins at the park";
+	textArray[3] = "Luke playing baseball with Sarah in Grandma and Grandpa's backyard";
+	textArray[4] = "Sarah showing Luke how to play basketball";
+	textArray[5] = "Sarah and Luke with matching soccer uniforms";
+	
+	Array[0] = "Slide 1";
+	Array[1] = "Slide 2";
+	Array[2] = "Slide 3";
+	Array[3] = "Slide 4";
+	Array[4] = "Slide 5";
+	Array[5] = "Slide 6";
+	
+	cycle3();
+	return;
+	}
+	
+	</script>
+	
+</head>
+<h1 class="h1" align ="center">My Siblings</h1>
+<body class="body">
+
+	<div align="center">
+		
+		<img class="img" name="banner" id="banner" src="images/0.gif">
+		<br /><br /><div id="bannerCaption" class="bannerCaption">Sarah holding Luke as a newborn</div>
+		<!--<br /><br /><div id="currentSlide" class="currentSlide">Slide 1</div>-->
+		
+	</div><br />
+	<center>
+<button class="button" onclick="startup3()">Previous Slide</button>
+<button class="button" onclick="startup()">Start Slideshow</button>
+<button class="button" onclick="startup2()">Next Slide</button>
+<button class="button" id="currentSlide">Slide 1</button>
+
+	</center>
+</body>
+</html>
