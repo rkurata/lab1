@@ -59,13 +59,13 @@ nav > ul > li > a{
 	text-decoration:none;
 	text-align:center;
 	color:#3e2077;
-	font-size:24pt;
+	font-size:16pt;
 	font-family:"Lobster 1.3";
 	border-left:7px solid #f9f5d5; /*width of divisions between tabs*/
 	background:url(../website/navbackground.png);
 	right top repeat-y
 	}
-	
+
 nav > ul > li > a:hover{text-decoration:none}
 nav > ul > li >:hover{background:url(../website/hoverbackground.png) -9px top repeat-x}
 
@@ -79,9 +79,9 @@ nav > ul > li.m1{width:110px}
 nav > ul > li.m2{width:150px}
 nav > ul > li.m3{width:110px}
 nav > ul > li.m4{width:155px}
-nav > ul > li.m5{width:145px}
+nav > ul > li.m5{width:145px; font-size: 2px;}
 nav > ul > li.m6{width:145px}
-nav > ul > li.m7{width:125px}
+nav > ul > li.m7{width:125px; font-size: 2px;}
 
 nav > ul > li.m1:hover{background-position:left top}
 nav > ul > li.m7:hover{background-position:right top}
