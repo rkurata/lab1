@@ -1,10 +1,20 @@
+@font-face{
+	font-family: "Lobster";
+	src: url(fonts/Lobster.otf);
+}
+
+@font-face{
+	font-family:bebas;
+	src: url(fonts/BEBAS.ttf);
+}
+
 body {
 	/*background:url()*/
 	left top no-repeat;
 	background-color: #ccfff0;
 	min-width: 1000px;
 	height: 100%;
-	font-family: "Lobster 1.3"
+	font-family: "Lobster"
 	}
 
 header {
@@ -17,7 +27,7 @@ header {
 nav{
 	width:971px;
 	height:113px;
-	background:url(../website/navbar.png)
+	background:url(../website/navbar2.png)
 	left top no-repeat;
 	position:absolute;
 	bottom:0;
@@ -35,7 +45,7 @@ nav{
 #logo a{
 	display:block;
 	height:100%;
-	background:url(../website/title2.png)
+	background:url(../website/title2_2.png)
 	left top no-repeat;
 	}
 	
@@ -60,8 +70,8 @@ nav > ul > li > a{
 	text-align:center;
 	color:#3e2077;
 	font-size:16pt;
-	font-family:"Lobster 1.3";
-	border-left:7px solid #f9f5d5; /*width of divisions between tabs*/
+	font-family:"Lobster";
+	border-left:7px solid #ffffff; /*width of divisions between tabs*/
 	background:url(../website/navbackground.png);
 	right top repeat-y
 	}
@@ -92,7 +102,7 @@ nav > ul > li > a.active
 	{
 	background:url(../website/active.png) -9px
 	top no-repeat;
-	color:#f9f5d5;
+	color:#ffffff;
 	}
 
 nav > ul > li.m1 > a.active{background-position:left top}
@@ -140,7 +150,7 @@ nav > ul > li.m6 > ul > li > ul, nav > ul > li.m7 > ul > li > ul{
 
 /*content*/
 #content {
-	background:url(../website/content.png);
+	background:url(../website/content2.png);
 	height:816px;
 	width:967px;
 	position:relative;
