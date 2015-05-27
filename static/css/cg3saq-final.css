@@ -77,7 +77,7 @@ nav > ul > li > a{
 	}
 
 nav > ul > li > a:hover{text-decoration:none}
-nav > ul > li >:hover{background:url(../website/hoverbackground.png) -9px top repeat-x}
+nav > ul > li >:hover{background:url(../website/hoverbackground2.png) -9px top repeat-x}
 
 #main {
 	width:1000px;
@@ -126,15 +126,14 @@ nav > ul ul a{
 	text-decoration:none;
 	display:block;
 	padding:6px 5px 7px 15px;
-	background:none;
 	}
 	
 nav > ul ul a:hover{background-position
 	text-decoration:none;
-	background-color:#f9f5d5; /*hover color for first drop down*/
+	background-color:#ffffff; /*hover color for first drop down*/
 	}
 
-nav > ul ul ul a:hover{background-color:#f2cce1} /*hover color for second drop down*/
+nav > ul ul ul a:hover{background-color:#ffffff} /*hover color for second drop down*/
 
 nav > ul ul li{margin-bottom:1px; width:100%}
 nav > ul > li > ul{margin-top:78px; padding-top:1px}
@@ -146,11 +145,12 @@ nav > ul > li > ul > li > ul{margin-left:140px}
 nav > ul > li.m6 > ul > li > ul, nav > ul > li.m7 > ul > li > ul{	
 	margin-left:0; margin-right:140px; left:auto; right:0f1c07}
 	
-	nav > ul > li > ul > li > ul > li a{background:#f9f5d5} /*background color for second dropdown*/
+	nav > ul > li > ul > li > ul > li a{background:#f2cce1} /*background color for second dropdown*/
 
 /*content*/
 #content {
 	background:url(../website/content2.png);
+
 	height:816px;
 	width:967px;
 	position:relative;
@@ -178,8 +178,9 @@ footer {
 	}
 	
 /*background*/
-.top_bg{min-width:1000px; background:url(../website/background.png) center top no-repeat #ccfff0}
+.top_bg{min-width:1000px; background:url(../website/background2.png) center top no-repeat #ffffff}
 /*end background*/
+
 footer .wrapper{
 	width:1000px;
 	margin:0 auto;
