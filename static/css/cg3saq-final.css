@@ -100,7 +100,7 @@ nav > ul > li.m1 > a{border:none} /*removes left border on first nav tab*/
 
 nav > ul > li > a.active
 	{
-	background:url(../website/active.png) -9px
+	background:url(../website/active2.png) -9px
 	top no-repeat;
 	color:#ffffff;
 	}
